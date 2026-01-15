@@ -2,10 +2,6 @@
 
 A lightweight, file-based relational database engine built from the ground up in Java. FeatherDB implements a custom SQL-like query language with a complete parser, query optimizer, and execution engine, using the file system for persistent data storage.
 
-## Overview
-
-FeatherDB is designed to demonstrate core database concepts including query parsing, relational algebra, and ACID-compliant transactions. The entire system—from lexical analysis to query execution—is implemented without external database libraries, making it an excellent educational resource for understanding how databases work internally.
-
 ## Features
 
 FeatherDB supports a comprehensive set of SQL-like operations:
@@ -22,13 +18,6 @@ FeatherDB supports a comprehensive set of SQL-like operations:
 | **DROP** | Remove tables or entire databases |
 | **JOIN** | Perform inner joins on multiple tables with Cartesian product results |
 
-### Design Highlights
-
-- **Custom Parser**: Implements a recursive descent parser for SQL-like query syntax
-- **B-Tree Indexing**: Efficient data structure for indexed lookups (see `BTREE_IMPLEMENTATION.md`)
-- **File Persistence**: Direct file-based storage with automatic serialization
-- **Type Safety**: Enforces column types and data validation
-- **Auto-Increment IDs**: Primary keys are automatically generated and managed
 
 ### Key Constraints
 
@@ -91,9 +80,6 @@ FeatherDB/
 
 For detailed information about the B-tree indexing implementation, see [`BTREE_IMPLEMENTATION.md`](BTREE_IMPLEMENTATION.md).
 
-## License
-
-This project is provided as-is for educational and development purposes.
 
 ---
 
