@@ -55,14 +55,7 @@ cd FeatherDB
 ./mvnw test
 ```
 
-### Using FeatherDB
 
-FeatherDB can be integrated into applications or used via command-line interfaces. Example usage:
-
-```bash
-# Run the application (adjust command based on your main class)
-./mvnw exec:java -Dexec.mainClass="your.main.class"
-```
 
 ## Project Structure
 
