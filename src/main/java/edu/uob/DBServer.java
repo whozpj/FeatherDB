@@ -22,9 +22,7 @@ public class DBServer {
         server.blockingListenOn(8888);
     }
 
-    /**
-    * KEEP this signature otherwise we won't be able to mark your submission correctly.
-    */
+
     public DBServer() {
         storageFolderPath = Paths.get("databases").toAbsolutePath().toString();
         try {
