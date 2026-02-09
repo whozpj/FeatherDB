@@ -55,7 +55,6 @@ public class DBServer {
 
    
     public String handleCommand(String command) {
-        // TODO implement your server logic here
         try {
             Tokeniser tokeniser = new Tokeniser();
             tokens = tokeniser.getTokens(command);
@@ -69,7 +68,6 @@ public class DBServer {
         }
     }
 
-    //  === Methods below handle networking aspects of the project - you will not need to change these ! ===
 
     public void blockingListenOn(int portNumber) throws IOException {
         try (ServerSocket s = new ServerSocket(portNumber)) {
