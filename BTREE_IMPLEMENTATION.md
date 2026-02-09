@@ -88,8 +88,3 @@ Retrieves all rows in sorted order (by ID):
 
 ---
 
-## Resume-Worthy Description
-
-**Engineered true B-tree data structure** with ORDER=4, implementing node splitting/merging algorithms and in-order traversal for O(log n) insertion and search operations. The B-tree maintains automatic balancing through proactive node splitting when nodes exceed capacity (3 keys), enabling efficient multi-table JOIN operations and range queries on large datasets while preserving insertion order semantics required by SQL operations.
-
-All 104 comprehensive unit tests pass validating data integrity and query correctness with the new tree-based storage backend.
